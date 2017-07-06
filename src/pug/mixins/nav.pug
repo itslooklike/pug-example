@@ -1,0 +1,7 @@
+mixin nav(items, active)
+  nav.header-menu
+    each item, idx in items
+      a(
+        class='header-menu__link' + (idx === active ? ' header-menu__link--active' : '')
+        href="#"
+      )= item

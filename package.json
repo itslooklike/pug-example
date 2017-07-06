@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pug --pretty ./src/pug/ --out ./build/",
-    "start": "pug --pretty --watch ./src/pug/ --out ./build/"
+    "build": "pug --pretty ./src/pug/pages/ --out ./build/",
+    "start": "pug --pretty ./src/pug/pages/ --out ./build/ --watch"
   },
   "repository": {
     "type": "git",
