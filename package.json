@@ -1,0 +1,25 @@
+{
+  "name": "pug-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pug --pretty ./src/pug/ --out ./build/",
+    "start": "pug --pretty --watch ./src/pug/ --out ./build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itslooklike/pug-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itslooklike/pug-example/issues"
+  },
+  "homepage": "https://github.com/itslooklike/pug-example#readme",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
